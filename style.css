@@ -1,0 +1,467 @@
+
+@font-face {
+	font-family: "Ma Super Fonte";
+    src: url('images/Righteous-Regular.ttf');
+}
+
+@font-face {
+	font-family: "autre font";
+    src: url('images/Blanka-Regular.ttf');
+}
+
+
+body, html {
+    height: 100%;
+    margin: 0;
+  }
+  
+  .bg {
+    /* The image used */
+    background-image: url("images/fond2_Plan\ de\ travail\ 1.png");
+  
+    /* Full height */
+    height: 100%; 
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  section
+{
+	padding: 45px 0 80px 0;
+}
+
+  /* general */ 
+body h2 
+{
+    font-family: 'autre font';
+}
+body 
+{
+	font-family:   "Ma Super Fonte";
+}
+
+h1,h2,h3,h4,h5,h6
+{
+	font-weight: bold;
+}
+.img-circle
+{
+	max-width: 40%;
+	height: auto;
+	margin-bottom: 40px;
+}
+
+
+
+section .heading
+{
+	text-align: center;
+	padding-bottom: 40px;
+}
+
+section .heading2
+{
+    text-align: center;
+    padding-bottom: 40px;
+    color: white;
+}
+.red-divider
+{
+	width: 100px;
+	height: 2px;
+	background: black;
+	margin: 0 auto;
+    margin-bottom: 20px;
+   
+
+}
+
+.red-divider2
+{
+	width: 100px;
+	height: 2px;
+	background: white;
+	margin: 0 auto;
+    margin-bottom: 20px;
+   
+
+}
+
+
+/*about*/
+
+#about img
+{
+    border-radius: 50%;
+    max-width: 250px;
+    margin-bottom: 20px;
+    
+}
+
+
+.presentation
+{
+    margin-top: 50px;
+}
+
+#about
+{
+    background: #f0f8ff;
+    text-align: center;
+}
+
+#about a img
+{
+    width: 50px;
+}
+  /*menu*/
+
+.navbar
+{
+	background: rgba(255, 255, 255, 0.95);
+	font-size: 12px;
+	font-weight: bold;
+	letter-spacing: 4px;
+	text-transform: uppercase;
+
+}
+.navbar .navbar-nav
+{
+	display: inline-block;
+	float: none;
+	vertical-align: top;
+}
+.navbar .navbar-collapse
+{
+	text-align: center;
+
+}
+
+.navbar li a 
+{
+	color: black !important;
+}
+
+.navbar li a:hover, .navbar li.active a
+{
+	color: rgb(200,230,200);
+	background-color: rgb(240,240,240);
+}
+
+.navbar-default .navbar-toggle
+{
+	border-style: none;
+}
+
+/*skills*/
+  
+
+
+#skills 
+{
+	text-align: center;
+	
+}
+
+#skills ul
+{
+	margin-bottom: 75px;
+	text-align: left;
+	overflow: hidden;
+	
+}
+
+#skills img
+{
+	width: 300px;
+	text-align: center;
+  
+}
+
+@media screen and (max-width: 970px) {
+	#skills ul{
+		margin: 0 40px 0 40px;
+	}
+}
+
+
+
+
+
+
+
+/*experience*/
+#experience
+{
+    background:#f0f8ff;
+    
+}
+
+.timeline
+{
+	padding: 30px 10px;
+	position: relative;
+}
+
+.timeline:before
+{
+	top: 0;
+	bottom: 0;
+	position: absolute;
+	content: " ";
+	width: 5px;
+	background-color: #333;
+	left: 50%;
+	margin-left: -2.5px;
+}
+
+.timeline > li
+{
+	margin-bottom: 20px;
+	position: relative;
+}
+
+.timeline > li:after
+{
+	clear: both;
+}
+
+.timeline > li:before, .timeline > li:after
+{
+	content: " ";
+	display: table;
+}
+
+.timeline li .timeline-badge
+{
+	color: white;
+	width: 50px;
+	line-height: 50px;
+	font-size: 20px;
+	text-align: center;
+	position: absolute;
+	top: 16px;
+	left: 50%;
+	margin-left: -25px;
+	background-color: #111216;
+	border-radius: 50%
+}
+
+.timeline-panel-container
+{
+	width: 50%;
+	float: left;
+}
+
+.timeline-panel-container-inverted
+{
+	width: 50%;
+	float: right;
+}
+
+.timeline-panel
+{
+	width: 90%;
+	float: right;
+	margin-right: 40px;
+	border: 1px solid #d4d4d4;
+	border-radius: 7px;
+	padding: 20px 25px;
+	position: relative;
+	box-shadow: 0 1px 6px rgba(0,0,0,0.175);
+	background: #fff;
+}
+
+.timeline-panel-container-inverted .timeline-panel
+{
+	float: left;
+	margin-left: 40px;
+}
+
+#experience ul
+{
+	list-style: none;
+}
+
+
+.timeline-panel:after
+{
+	position: absolute;
+	top: 27px;
+	right: -14px;
+	display: inline-block;
+	border-top: 14px solid transparent;
+	border-left: 14px solid #fff;
+	border-right: 0 solid #fff;
+	border-bottom: 14px solid transparent;
+	content: " ";
+}
+
+.timeline-panel-container-inverted .timeline-panel:after
+{
+	border-left-width: 0;
+	border-right-width: 14px;
+	left: -14px;
+	right: auto;
+}
+
+.timeline-heading h4
+{
+	margin-top: 5px;
+	font-size: 20px;
+}
+
+.timeline-heading h3
+{
+	color: #272727;
+}
+
+.timeline-heading h4
+{
+	color: #666;
+}
+
+
+/*education*/
+
+#education
+{
+	background: #fff;
+
+}
+
+#education .ehading h2
+{
+	color: gray;
+}
+
+.education-block
+{
+	width: 80%;
+	margin : 0 auto;
+	text-align: center;
+	padding: 30px;
+	background: #fff;
+	border-radius: 10px;
+	border: 2px solid #ccc;
+	margin-bottom: 40px;
+
+}
+
+.education-block h5
+{
+	color: #888;
+	font-size: 15px;
+	margin-bottom: 15px;
+
+}
+
+.education-block .glyphicon
+{
+	font-size: 40px;
+
+}
+
+.education-block h3
+{
+	color: #d82c2e;
+}
+
+.education-block p
+{
+	font-weight: bold;
+}
+
+.education-block .red-divider
+{
+	margin-bottom: 20px;
+}
+
+
+
+
+/*footer*/
+footer
+{
+
+	background: black;
+    padding: 20px 0 40px;
+
+
+}
+
+
+
+
+footer .glyphicon
+{
+	font-size: 60px;
+	margin: 10px;
+	color: rgb(200,200,200);
+
+
+}
+
+footer .glyphicon:hover
+{
+	font-size: 67px;
+}
+
+
+/*portfolio*/
+
+#portfolio
+{
+	background-color: #111216;
+}
+
+.row {
+	display: -ms-flexbox; 
+	display: flex;
+	-ms-flex-wrap: wrap; 
+	flex-wrap: wrap;
+	padding: 0 4px;
+  }
+  
+  
+  .column {
+	-ms-flex: 33.3%; 
+	flex: 33.3%;
+	max-width: 33.3%;
+	padding: 0 4px;
+  }
+  
+  .column img {
+	margin-top: 8px;
+	vertical-align: middle;
+	width: 100%;
+  }
+  
+.lol
+{
+	color:  #111216;
+}
+
+
+
+
+  /* Responsive layout - makes a two column-layout instead of four columns 
+  @media screen and (max-width: 800px) {
+	.column {
+	  -ms-flex: 50%;
+	  flex: 50%;
+	  max-width: 50%;
+	}
+  }
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 970px) {
+	.column {
+	  -ms-flex: 100%;
+	  flex: 100%;
+	  max-width: 100%;
+	}
+  }
