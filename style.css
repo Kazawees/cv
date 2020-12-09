@@ -223,6 +223,25 @@ section .heading2
 
 
 /*experience*/
+
+
+@media screen and (max-width: 970px) {
+	.timeline-heading>h3{
+		font-size: 20px;
+	
+	}
+	.timeline-heading>h4{
+		font-size: 16px;
+	
+	}
+}
+
+
+
+
+
+
+
 #experience
 {
     background:#f0f8ff;
@@ -342,7 +361,7 @@ section .heading2
 .timeline-heading h4
 {
 	margin-top: 5px;
-	font-size: 20px;
+	
 }
 
 .timeline-heading h3
