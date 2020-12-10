@@ -230,13 +230,13 @@ section .heading2
 /*experience*/
 
 
-@media screen and (max-width: 970px) {
+@media screen and (max-width: 992px) {
 	.timeline-heading>h3{
-		font-size: 20px;
+		font-size: 16px;
 	
 	}
 	.timeline-heading>h4{
-		font-size: 16px;
+		font-size: 13px;
 	
 	}
 }
