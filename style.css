@@ -239,6 +239,9 @@ section .heading2
 		font-size: 13px;
 	
 	}
+	.timeline-heading>p{
+		font-size: 10px;
+	}
 }
 
 
